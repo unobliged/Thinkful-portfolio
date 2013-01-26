@@ -15,7 +15,9 @@ $(document).ready(function() {
 		}
 	});
 	
-
+	$('div#projects>div>a>img').hover(function(){
+		$(this).parent().effect('highlight', {color: '#8a8db6'}, 'fast');
+	});
 	
 	
 });
